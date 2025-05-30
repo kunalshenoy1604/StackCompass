@@ -66,7 +66,7 @@ const Index = () => {
           {/* Stats */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-2xl mx-auto">
             <div className="text-center">
-              <div className="text-3xl font-bold text-white">10K+</div>
+              <div className="text-3xl font-bold text-white">100+</div>
               <div className="text-gray-400">Repositories Analyzed</div>
             </div>
             <div className="text-center">
@@ -74,7 +74,7 @@ const Index = () => {
               <div className="text-gray-400">Accuracy Rate</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-white">2min</div>
+              <div className="text-3xl font-bold text-white">45sec</div>
               <div className="text-gray-400">Average Analysis</div>
             </div>
           </div>
@@ -175,14 +175,20 @@ const Index = () => {
             <p className="text-xl text-gray-300 max-w-2xl mx-auto mb-8">
               Join thousands of developers who trust StackCompass for intelligent code analysis and insights.
             </p>
+
+
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link to="/signup">
               <button className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white text-lg px-8 py-4 rounded-md font-medium transition-colors flex items-center justify-center">
                 Get Started Free
                 <ArrowRight className="ml-2 w-5 h-5" />
               </button>
+              </Link>
+              <Link to="/login">
               <button className="border border-gray-600 text-gray-300 hover:bg-gray-800 text-lg px-8 py-4 rounded-md font-medium transition-colors">
                 Sign In
               </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -198,7 +204,10 @@ const Index = () => {
             <span className="text-white font-semibold">StackCompass</span>
           </div>
           <div className="text-gray-400 text-sm">
-            © 2024 StackCompass. All rights reserved.
+            Built for Developers and Product Managers by Kunal Shenoy - shenoykunal1309@gmail.com
+          </div>
+          <div className="text-gray-400 text-sm">
+            © 2025 StackCompass. All rights reserved.
           </div>
         </div>
       </footer>
